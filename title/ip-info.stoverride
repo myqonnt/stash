@@ -1,0 +1,10 @@
+﻿tiles:
+  - name: IP-INFO
+    interval: 600
+    content: '待获取信息中'
+    icon: 'text.badge.star'
+    backgroundColor: '#FFD700'
+script-providers:
+  IP-INFO:
+    url: https://raw.githubusercontent.com/myqonnt/stash/title/master/ip-info.stoverride
+    interval: 86400

@@ -1,5 +1,10 @@
 let url = "http://ip-api.com/json/?fields=8450015&lang=zh-CN"
 $httpClient.get(url, (error, response, data) => {
+  if(error) {
+    $done("request error")
+  } else {
+    $done(data);
+  }
   // let jsonData = JSON.parse(data)
 	// let query =jsonData.query 
 	// let isp =jsonData.isp
@@ -18,7 +23,6 @@ $httpClient.get(url, (error, response, data) => {
   //   icon: params.icon,
   //   "icon-color": params.color
   // }
-  $done(data);
 });
 
 function getFlagEmoji(countryCode) {

@@ -1,4 +1,6 @@
-﻿tiles:
+﻿name: IP-INFO-TITLE
+desc: IP信息面板
+tiles:
   - name: IP-INFO
     interval: 600
     content: '待获取信息中'
@@ -6,5 +8,5 @@
     backgroundColor: '#FFD700'
 script-providers:
   IP-INFO:
-    url: https://raw.githubusercontent.com/myqonnt/stash/title/master/ip-info.stoverride
+    url: https://raw.githubusercontent.com/myqonnt/stash/refs/heads/main/title/ip-info.js
     interval: 86400

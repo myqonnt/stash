@@ -9,4 +9,4 @@ tiles:
 script-providers:
   IP-INFO:
     url: https://raw.githubusercontent.com/myqonnt/stash/refs/heads/main/title/ip-info.js
-    interval: 86400
+    interval: 10

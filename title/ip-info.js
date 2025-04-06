@@ -1,5 +1,5 @@
 let url = "http://ip-api.com/json/?fields=8450015&lang=zh-CN"
-$httpClient.get(url, function(error, response, data){
+$httpClient.get(url, (error, response, data) => {
   let jsonData = JSON.parse(data)
 	let query =jsonData.query 
 	let isp =jsonData.isp

@@ -18,7 +18,7 @@ $httpClient.get(url, function(error, response, data){
     icon: params.icon,
     "icon-color": params.color
   }
-  $done(body);
+  $done(data);
 });
 
 function getFlagEmoji(countryCode) {

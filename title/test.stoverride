@@ -7,6 +7,6 @@ tiles:
     icon: 'text.badge.star'
     backgroundColor: '#FFD700'
 script-providers:
-  IP-INFO:
+  TEST:
     url: https://raw.githubusercontent.com/myqonnt/stash/refs/heads/main/title/test.js
     interval: 10

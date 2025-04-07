@@ -36,7 +36,7 @@ async function fetch() {
           return reject([`获取 IP 信息失败`, error]);
         } else {
           if (response.status === 200) {
-            message.content = JSON.parse(data).query;
+            message.content = `${JSON.parse(data).query}`;
           }
           return resolve();
         }

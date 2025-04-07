@@ -2,7 +2,7 @@ let url = "http://ip-api.com/json/?fields=8450015&lang=zh-CN"
 
 let message = {
   'title': 'IP 信息',
-  'content': '',
+  'content': '等待发起请求中',
 };
 
 function handleError(error) {

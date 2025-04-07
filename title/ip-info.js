@@ -9,7 +9,7 @@ function handleError(error) {
   if (Array.isArray(error)) {
     console.log(`错误：${error[0]} ${error[1]}`);
     return {
-      title: '加密货币汇率',
+      title: 'IP 信息',
       content: `错误：${error[0]} ${error[1]}`,
       icon: 'simcard',
       'icon-color': '#CB1B45',
@@ -17,7 +17,7 @@ function handleError(error) {
   } else {
     console.log(`错误：${error}`);
     return {
-      title: '加密货币汇率',
+      title: 'IP 信息',
       content: `错误：${error}`,
       icon: 'simcard',
       'icon-color': '#CB1B45',

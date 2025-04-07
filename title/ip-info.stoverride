@@ -1,8 +1,11 @@
-﻿name: IP-INFO-TITLE
-desc: IP信息面板
+﻿name: "IP-INFO-TITLE"
+desc: "IP信息面板"
+category: "Title"
 tiles:
   - name: IP-INFO
-    icon: 'text.badge.star'
+    title: 'IP信息'
+    content: '⏳ 正在获取 IP 信息...'
+    icon: 'network'
     backgroundColor: '#FFD700'
 script-providers:
   IP-INFO:

@@ -1,0 +1,12 @@
+﻿name: TEST-TITLE
+desc: 测试面板
+tiles:
+  - name: TEST
+    interval: 600
+    content: '待获取信息中'
+    icon: 'text.badge.star'
+    backgroundColor: '#FFD700'
+script-providers:
+  IP-INFO:
+    url: https://raw.githubusercontent.com/myqonnt/stash/refs/heads/main/title/test.js
+    interval: 10
